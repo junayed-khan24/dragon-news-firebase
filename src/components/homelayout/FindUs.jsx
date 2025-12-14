@@ -3,7 +3,7 @@ import { FaFacebook, FaInstagram, FaTwitter } from 'react-icons/fa';
 
 const FindUs = () => {
     return (
-        <div>
+        <div className='hidden md:block'>
             <h2 className='font-bold mb-5'>Find Us</h2>
             <div>
                 <div className="join join-vertical w-full ">

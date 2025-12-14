@@ -22,7 +22,7 @@ const CategoryNews = () => {
         console.log(filteredNews);
         setCategoryNews(filteredNews)
         }
-    },[data, id])
+    },[id, data])
     return (
         <div>
             <h2 className='font-bold mb-5'>

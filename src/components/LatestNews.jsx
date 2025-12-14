@@ -7,11 +7,11 @@ const LatestNews = () => {
             <p className='text-base-100 bg-secondary px-3 py-2'>Latest</p>
 
             <Marquee pauseOnHover={true} speed={50} >
-                 <p className='font-bold'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cum laboriosam molestiae qui et iure numquam accusantium tenetur ipsa. </p>
+                 <p className='font-bold text-red-400'>Bangladesh's Export Earnings Show Strong Growth in Q1 2025,   Local Businesses Adapt to Rising Raw Material Costs </p>
             </Marquee>
            
         </div>
     );
 };
 
-export default LatestNews;
+export default LatestNews; 
